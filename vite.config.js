@@ -9,7 +9,8 @@ export default defineConfig({
   plugins: [
     vue(),
     vueDevTools(),
-  ],
+      ],
+  base: '/dashboardTrading/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
